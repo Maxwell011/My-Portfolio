@@ -24,13 +24,12 @@
   --box-bgc: #d0d9d4;
   --box-border-radius: 8px;
   --box-border: 1px solid #d0d9d4;
-  --box-width: 327px;
   --box-height: 474px;
   --second-height: 352px;
   --second-border: 1px solid #c1c7d0;
   --second-bgc: #ebf0ee;
 
-  /* transition*/
+  /* transition */
   --transition: all 0.3s linear;
 
   /* Buttons */
@@ -42,8 +41,6 @@
   --button-hover: #36b37f;
   --button-box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
   --button-border-radius: 4px;
-  --button-pressed: #008552;
-  --button-padding: 12px;
 }
 
 /* General Reset */
@@ -84,7 +81,6 @@ img {
 .wrapper {
   width: 375px;
   margin: 0 auto;
-  /* background-color: red; */
   border: var(--box-border);
 }
 
@@ -285,7 +281,6 @@ Sidebar
   color: var(--secondary-clr);
   background: var(--main-bgc);
   margin: 5px;
-  color: var(--secondary-clr);
   font-size: 12px;
 }
 
@@ -374,7 +369,7 @@ button {
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 
@@ -393,7 +388,7 @@ button {
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 
@@ -411,7 +406,7 @@ button {
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 
@@ -426,6 +421,7 @@ button {
 .about-me {
   margin: 0 auto;
 }
+
 .description {
   color: var(--neutral-clr);
   font-size: var(--paragraph-font);
