@@ -75,7 +75,7 @@ body {
 
 /* Main */
 .header {
-  display: var(--display);
+  display: flex;
   justify-content: space-between;
   width: 375px;
   height: 92px;
