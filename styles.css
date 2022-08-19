@@ -341,6 +341,21 @@ button {
   align-items: center;
 }
 
+button:hover {
+  background: #36b37f;
+  box-shadow: var(--button-box-shadow);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:enabled {
+  background: #36b37f;
+}
+
+button:active {
+  background: #008552;
+}
+
 /*  Language,framework & skills */
 .abilities {
   width: var(--box-width);
