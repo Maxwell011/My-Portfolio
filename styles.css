@@ -448,44 +448,62 @@ button:active {
 }
 
 /* Contact form */
-.contact-form .contact-title {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
+.contact {
+  font-size: var(--big-font);
+  color: var(--primary-clr);
+  width: var(--box-width);
+  height: 363px;
   text-align: center;
-  color: #172b4d;
-  margin-bottom: 58px;
-  margin-top: 60px;
+  margin: 0 auto;
 }
 
-.contact-form .form-field {
-  width: 327px;
-  height: 48px;
-  margin: 0 24px 24px 24px;
+.contact-container {
+  margin: 0 0 50px 0;
 }
 
-.contact-form .text-field {
-  width: 327px;
-  height: 114px;
-  margin: 0 24px 24px 24px;
+/* Forms */
+form {
+  margin: 100px 0 0 0;
 }
 
-.contact-form .form-button {
-  width: 129px;
-  height: 48px;
-  margin: 0 24px 24px 24px;
-  border-radius: 4px;
-  background: #36b37f;
-  color: #fff;
-  border: none;
+input[type="text"],
+input[type="email"] {
+  width: var(--box-width);
+  background-color: var(--primary-bgc);
+  height: var(--input-height);
+  border: var(--input-border);
+  border-radius: var(--input-radius);
+  color: var(--input-main-clr);
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 16px;
 }
 
-.contact-form .form-field::placeholder {
-  padding: 8px;
-  color: #6b778c;
-}
-
-.contact-form .text-field::placeholder {
-  padding: 8px;
+textarea {
+  width: var(--box-width);
+  border: var(--textarea-border);
+  height: var(--textarea-height);
+  border-radius: var(--input-radius);
   color: #091e42;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 15px 16px;
+}
+
+.email {
+  font-size: var(--paragraph-font);
+  color: var(--neutral-clr);
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.list-group {
+  padding: 10px;
 }
