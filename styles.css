@@ -32,6 +32,14 @@
   /* transition */
   --transition: all 0.3s linear;
 
+  /* Input */
+  --input-main-clr: #6b778c;
+  --textarea-border: 1px solid #60c095;
+  --textarea-height: 114px;
+  --input-border: 1px solid #d0d9d4;
+  --input-height: 48px;
+  --input-radius: 4px;
+
   /* Buttons */
   --button-font: "Inter", sans-serif;
   --button-font-size: 17px;
@@ -445,4 +453,75 @@ button:active {
   text-align: center;
   margin: 0 auto;
   line-height: 32px;
+}
+
+/* Contact form */
+.contact {
+  font-size: var(--big-font);
+  color: var(--primary-clr);
+  width: var(--box-width);
+  height: 363px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-container {
+  margin: 0 0 50px 0;
+}
+
+/* Forms */
+form {
+  margin: 100px 0 0 0;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: var(--box-width);
+  background-color: var(--primary-bgc);
+  height: var(--input-height);
+  border: var(--input-border);
+  border-radius: var(--input-radius);
+  color: var(--input-main-clr);
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 16px;
+}
+
+textarea {
+  width: var(--box-width);
+  border: var(--textarea-border);
+  height: var(--textarea-height);
+  border-radius: var(--input-radius);
+  color: #091e42;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 15px 16px;
+}
+
+.email {
+  font-size: var(--paragraph-font);
+  color: var(--neutral-clr);
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.list-group {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-line {
+  width: 33%;
+  height: 6px;
+  border-radius: 7px;
+  background-color: #0d141e;
+  margin: 60px auto;
 }
