@@ -514,4 +514,14 @@ textarea {
 
 .list-group {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-line {
+  width: 33%;
+  height: 6px;
+  border-radius: 7px;
+  background-color: #0d141e;
+  margin: 60px auto;
 }

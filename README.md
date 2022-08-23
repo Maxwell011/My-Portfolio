@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> This is a portfolio website built using Template 3 of Microverse Figma Template
+> This is a portfolio website of Maxwell Chukwuemeka built using Template 3 of Microverse Figma Template
 
 ## Built With
 
@@ -14,12 +14,16 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+Clone the repository using the command `git clone https://github.com/Maxwell011/My-Portfolio.git`
+Navigate into the `portfolio` and run the index.html file
+
+You are good to go live 🔥
 
 ### Prerequisites
 
 - Code Editors{Vs Code}
 - Git Bash
+- Browser (Chrome, Safari, Firefox)
 
 ## Author
 
