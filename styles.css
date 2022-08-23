@@ -32,6 +32,15 @@
   /* transition */
   --transition: all 0.3s linear;
 
+  /* Input */
+  --input-main-clr: #6b778c;
+  --primary-bgc: #fff;
+  --textarea-border: 1px solid #60c095;
+  --textarea-height: 114px;
+  --input-border: 1px solid #d0d9d4;
+  --input-height: 48px;
+  --input-radius: 4px;
+
   /* Buttons */
   --button-font: "Inter", sans-serif;
   --button-font-size: 17px;
@@ -500,7 +509,7 @@ textarea {
 .email {
   font-size: var(--paragraph-font);
   color: var(--neutral-clr);
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
   text-align: center;
 }
 
