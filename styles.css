@@ -210,7 +210,8 @@ Sidebar
   width: var(--box-width);
   height: 164px;
   margin: 30px auto;
-  padding: 5rem 0 0 0;
+  /* padding: 5rem 0 0 0; */
+  padding: 0;
 }
 
 /* Social Media */
@@ -544,6 +545,7 @@ textarea {
     color: #344563;
     font-weight: bold;
     font-size: 17px;
+    padding-top: 10px;
   }
 
   /* .disabled {
@@ -557,11 +559,19 @@ textarea {
   .info-section {
     background-image: url(./images/Desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center center;
-    width: 100%;
-    height: 100%;
+    gap: 12px;
+    height: 1050px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
   }
+
+  .header-social {
+    padding-top: 0;
+  }
+
   .section-title {
     width: 920px;
     height: 114px;
@@ -573,10 +583,15 @@ textarea {
     text-align: center;
     letter-spacing: 0.37px;
   }
+
   /* TODO: */
   .my-info {
+    width: 56%;
+    padding: 20px;
+    height: 75px;
   }
   .disabled {
+    margin: 48px;
   }
 
   /* works/projects section */
@@ -590,7 +605,10 @@ textarea {
     line-height: 52px;
     display: flex;
     align-items: center;
-    text-align: center; */
+    text-align: center;
+    justify-content: center;
+    margin: auto; */
+    /* padding: 24px; */
   }
 
   .line {
@@ -606,14 +624,39 @@ textarea {
   }
 
   /* About me */
+  .about-me {
+    /* margin: 0 192px; */
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: url(./images/Group.png) bottom right,
+      url(./images/bottom-left.png) bottom left;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+  .contact-container {
+    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+        right,
+      url(./images/Frame-center.png) bottom,
+      url(./images/illustration-1-contact-form-desktop.png) bottom left;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
   .description {
-    width: 920px;
+    width: 51%;
+    /* width: 920px; */
     height: 96px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
+    padding: 24px 0;
+  }
+
+  .des-btn {
+    margin: 55px;
   }
 
   /* Language,framework & Skills */
@@ -623,44 +666,57 @@ textarea {
     grid-gap: 4px;
     width: 70%;
     margin: auto;
+    padding: 80px 0 0 0;
   }
 
   /* Contact form */
   .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    /* display: flex;
-    justify-content: ;
-    flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateX(-50px); */
+    padding-right: 93px;
   }
 
   .list-group {
   }
 
   .contact {
+    display: flex;
+    align-items: center;
     width: 463px;
     height: 256px;
     font-weight: 700;
     font-size: 30px;
     line-height: 52px;
+    margin: 30px;
+  }
+
+  .btn {
+    margin-right: 400px;
   }
 
   .email {
     display: none;
   }
 
+  form {
+    /* height: 256px; */
+  }
+
   input[type="text"],
   input[type="email"] {
     height: 48px;
     border-radius: 4px;
-    width: 684px;
+    width: 500px;
     border: 1px solid #d0d9d4;
+    /* margin-right: 70px;
+    margin-left: 50px; */
   }
 
   textarea {
     height: 114px;
-    width: 684px;
+    width: 500px;
     border-radius: 4px;
     border: 1px solid #60c095;
   }
