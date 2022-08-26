@@ -118,7 +118,8 @@ body {
   align-items: baseline;
 }
 
-.heading {
+.heading,
+.heading-one {
   color: var(--primary-clr);
   font-weight: 700;
   padding-top: 25px;
@@ -209,7 +210,9 @@ Sidebar
   text-align: center;
   width: var(--box-width);
   height: 164px;
-  margin: 30px auto;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -222,7 +225,7 @@ Sidebar
 .disabled {
   width: 60px;
   height: 60px;
-  margin: 200px 0 25px 0;
+  margin: 40px 0 25px 0;
 }
 
 /* grid container  */
@@ -548,13 +551,6 @@ textarea {
     padding-top: 10px;
   }
 
-  /* .disabled {
-    height: 40px;
-    width: 40px;
-    border-radius: 32px;
-    padding: 8px;
-  } */
-
   /* Info section */
   .info-section {
     background-image: url(./images/Desktop.png);
@@ -586,11 +582,13 @@ textarea {
     animation-name: slide-in;
   }
 
-  /* TODO: */
   .my-info {
-    width: 56%;
+    width: 51%;
     padding: 20px;
     height: 75px;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 0;
   }
 
   .disabled {
@@ -602,8 +600,8 @@ textarea {
   }
 
   /* works/projects section */
-  .heading {
-    /* width: 447px;
+  .heading-one {
+    width: 447px;
     height: 48px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -614,7 +612,7 @@ textarea {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: auto; */
+    margin: auto;
   }
 
   .line {
@@ -631,7 +629,6 @@ textarea {
 
   /* About me */
   .about-me {
-    /* margin: 0 192px; */
     padding-top: 100px;
     padding-bottom: 30px;
     background:
@@ -671,9 +668,8 @@ textarea {
     background:
       url(./images/contact\ form-illustratoin-3-desktop.png) bottom
       right,
-      url(./images/Frame-center.png) bottom,
+      url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
-    background-position: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -681,9 +677,7 @@ textarea {
     padding-right: 93px;
   }
 
-  /* .list-group {
-  } */
-
+  /* .list-group */
   .contact {
     display: flex;
     align-items: center;
@@ -701,10 +695,6 @@ textarea {
 
   .email {
     display: none;
-  }
-
-  form {
-    /* height: 256px; */
   }
 
   input[type="text"],
