@@ -670,12 +670,17 @@ textarea {
       right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
+      url(./images/Frame-center.png) bottom,
+      url(./images/illustration-1-contact-form-desktop.png) bottom left;
+    background-position: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 93px;
   }
 
+  /* .list-group */
   .contact {
     display: flex;
     align-items: center;
