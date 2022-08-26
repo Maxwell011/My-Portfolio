@@ -634,8 +634,9 @@ textarea {
     /* margin: 0 192px; */
     padding-top: 100px;
     padding-bottom: 30px;
-    background: url(./images/Group.png) bottom right,
-      url(./images/bottom-left.png) bottom left;
+    background: 
+    url(./images/Group.png) bottom right,
+    url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
   }
@@ -667,16 +668,16 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-        right,
-      url(./images/Frame-center.png) bottom,
-      url(./images/illustration-1-contact-form-desktop.png) bottom left;
+    background: 
+    url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+    right,
+    url(./images/Frame-center.png) bottom,
+    url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transform: translateX(-50px); */
     padding-right: 93px;
   }
 
@@ -712,8 +713,6 @@ textarea {
     border-radius: 4px;
     width: 500px;
     border: 1px solid #d0d9d4;
-    /* margin-right: 70px;
-    margin-left: 50px; */
   }
 
   textarea {
