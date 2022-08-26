@@ -210,7 +210,6 @@ Sidebar
   width: var(--box-width);
   height: 164px;
   margin: 30px auto;
-  /* padding: 5rem 0 0 0; */
   padding: 0;
 }
 
@@ -351,6 +350,7 @@ button {
   margin: 15px;
   text-align: center;
   align-items: center;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 button:hover {
@@ -592,6 +592,7 @@ textarea {
     padding: 20px;
     height: 75px;
   }
+
   .disabled {
     margin: 48px;
   }
@@ -614,7 +615,6 @@ textarea {
     text-align: center;
     justify-content: center;
     margin: auto; */
-    /* padding: 24px; */
   }
 
   .line {
@@ -640,18 +640,8 @@ textarea {
     background-repeat: no-repeat;
   }
 
-  .contact-container {
-    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-        right,
-      url(./images/Frame-center.png) bottom,
-      url(./images/illustration-1-contact-form-desktop.png) bottom left;
-    background-position: cover;
-    background-repeat: no-repeat;
-  }
-
   .description {
     width: 51%;
-    /* width: 920px; */
     height: 96px;
     font-style: normal;
     font-weight: 400;
@@ -677,6 +667,12 @@ textarea {
 
   /* Contact form */
   .contact-container {
+    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+        right,
+      url(./images/Frame-center.png) bottom,
+      url(./images/illustration-1-contact-form-desktop.png) bottom left;
+    background-position: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -684,8 +680,8 @@ textarea {
     padding-right: 93px;
   }
 
-  .list-group {
-  }
+  /* .list-group {
+  } */
 
   .contact {
     display: flex;
@@ -751,29 +747,29 @@ textarea {
   }
 }
 
-button {
-  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
 @keyframes shake-horizontal {
   0%,
   100% {
     transform: translateX(0);
   }
+
   10%,
   30%,
   50%,
   70% {
     transform: translateX(-10px);
   }
+
   20%,
   40%,
   60% {
     transform: translateX(10px);
   }
+
   80% {
     transform: translateX(8px);
   }
+
   90% {
     transform: translateX(-8px);
   }
