@@ -582,6 +582,8 @@ textarea {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.37px;
+    animation-duration: 3s;
+    animation-name: slide-in;
   }
 
   /* TODO: */
@@ -592,6 +594,10 @@ textarea {
   }
   .disabled {
     margin: 48px;
+  }
+
+  .disabled:hover {
+    background: #36b37e;
   }
 
   /* works/projects section */
@@ -723,5 +729,24 @@ textarea {
 
   .bottom-line {
     display: none;
+  }
+}
+
+/* Animations */
+@keyframes slide-in {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-bottom: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
   }
 }
