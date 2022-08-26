@@ -551,13 +551,6 @@ textarea {
     padding-top: 10px;
   }
 
-  /* .disabled {
-    height: 40px;
-    width: 40px;
-    border-radius: 32px;
-    padding: 8px;
-  } */
-
   /* Info section */
   .info-section {
     background-image: url(./images/Desktop.png);
@@ -589,7 +582,6 @@ textarea {
     animation-name: slide-in;
   }
 
-  /* TODO: */
   .my-info {
     width: 51%;
     padding: 20px;
@@ -597,7 +589,6 @@ textarea {
     margin: auto;
     margin-top: 51px;
     margin-bottom: 0;
-    padding: 0;
   }
 
   .disabled {
@@ -638,10 +629,10 @@ textarea {
 
   /* About me */
   .about-me {
-    /* margin: 0 192px; */
     padding-top: 100px;
     padding-bottom: 30px;
-    background: url(./images/Group.png) bottom right,
+    background:
+      url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -674,19 +665,16 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-        right,
+    background:
+      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+      right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-right: 93px; */
   }
-
-  /* .list-group {
-  } */
 
   .contact {
     display: flex;
@@ -705,10 +693,6 @@ textarea {
 
   .email {
     display: none;
-  }
-
-  form {
-    /* height: 256px; */
   }
 
   input[type="text"],
