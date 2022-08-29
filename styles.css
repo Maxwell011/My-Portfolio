@@ -257,12 +257,7 @@ Sidebar
   padding: 8px 12px;
 }
 
-.box-1,
-.box-2,
-.box-3,
-.box-4,
-.box-5,
-.box-6 {
+.box {
   width: 326px;
   height: 222px;
   border-radius: 8px;
@@ -520,7 +515,7 @@ textarea {
 }
 
 .list-group {
-  padding: 10px;
+  padding: 30px;
   display: flex;
   justify-content: center;
 }
@@ -631,8 +626,7 @@ textarea {
   .about-me {
     padding-top: 100px;
     padding-bottom: 30px;
-    background:
-      url(./images/Group.png) bottom right,
+    background: url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -665,9 +659,8 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background:
-      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-      right,
+    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+        right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
