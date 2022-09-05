@@ -686,7 +686,8 @@ textarea {
   .about-me {
     padding-top: 100px;
     padding-bottom: 30px;
-    background: url(./images/Group.png) bottom right,
+    background:
+      url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -719,8 +720,9 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-        right,
+    background:
+      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+      right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
