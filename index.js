@@ -3,7 +3,7 @@ const toggleBtn = document.querySelector(".sidebar-toggle");
 const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector(".sidebar");
 const aboutMe = document.querySelector(".about");
-const contactMe = document.querySelector(".contact");
+const contactMe = document.querySelector(".contacts");
 const portfolio = document.querySelector(".portfolio");
 
 toggleBtn.addEventListener("click", () => {
