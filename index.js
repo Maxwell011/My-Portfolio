@@ -2,9 +2,9 @@
 const toggleBtn = document.querySelector('.sidebar-toggle');
 const closeBtn = document.querySelector('.close-btn');
 const sidebar = document.querySelector('.sidebar');
-const aboutMe = document.querySelector('.about');
-const contactMe = document.querySelector('.contacts');
-const portfolio = document.querySelector('.portfolio');
+const aboutMe = document.querySelector('.mobile-about');
+const contactMe = document.querySelector('.mobile-contacts');
+const portfolio = document.querySelector('.mobile-portfolio');
 
 toggleBtn.addEventListener('click', () => {
   sidebar.classList.toggle('show-sidebar');
