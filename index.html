@@ -16,6 +16,8 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
     </style>
+    <!-- Javascript -->
+    <!-- <script src="./popup.js"></script> -->
   </head>
 
   <body>
@@ -278,6 +280,7 @@
           action="https://formspree.io/f/xoqbvjel"
           class="form"
           method="post"
+          id="genForm"
         >
           <input type="text" placeholder="Full Name" required maxlength="30" />
           <br />
@@ -299,6 +302,7 @@
             maxlength="500"
           ></textarea>
           <button type="submit" class="button">Get in touch</button>
+          <small id="error"></small>
         </form>
       </section>
 
@@ -332,5 +336,6 @@
     </div>
     <!-- Javascript -->
     <script src="./index.js"></script>
+    <script src="./popup.js"></script>
   </body>
 </html>
