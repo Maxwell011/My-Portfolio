@@ -686,7 +686,8 @@ textarea {
   .about-me {
     padding-top: 100px;
     padding-bottom: 30px;
-    background: url(./images/Group.png) bottom right,
+    background:
+      url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -719,8 +720,9 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-        right,
+    background:
+      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+      right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
@@ -840,9 +842,9 @@ textarea {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px 18px 200px 18px;
+  padding: 20px;
   border: 1px solid #888;
-  width: 875px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -876,9 +878,8 @@ textarea {
 .desktop-bg {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 616px;
-  width: 872px;
-  border-radius: 8px;
+  width: 100%;
+  height: 100%;
 }
 
 .modal-body {
@@ -889,7 +890,6 @@ textarea {
 #tech {
   display: none;
   grid-area: tech;
-  margin-top: 20px;
 }
 
 #mobile-ul {
@@ -939,12 +939,12 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 12px 16px;
-  gap: 8px;
-  height: 48px;
+  padding: 0 13px;
+  gap: 5px;
   color: #fff;
-  align-items: center;
-  border-radius: 5px;
+  border-radius: 9px;
+  text-align: center;
+  height: min-content;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1012,7 +1012,6 @@ textarea {
     line-height: 44px;
     color: #172b4d;
     text-align: left;
-
   }
 
   .modal-footer {
