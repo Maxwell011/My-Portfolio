@@ -686,8 +686,7 @@ textarea {
   .about-me {
     padding-top: 100px;
     padding-bottom: 30px;
-    background:
-      url(./images/Group.png) bottom right,
+    background: url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -720,9 +719,8 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background:
-      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-      right,
+    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+        right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
@@ -938,19 +936,20 @@ textarea {
 .project-view-btn {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 13px;
   gap: 5px;
   color: #fff;
   border-radius: 9px;
   text-align: center;
   height: min-content;
+  outline: none;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
   .modal-content {
     position: relative;
-    height: 1083px;
   }
 
   .modal-header {
