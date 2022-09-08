@@ -1011,12 +1011,13 @@ textarea {
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+    text-align: left;
+
   }
 
   .modal-footer {
     position: absolute;
     right: 0;
-    /* top: 32px; */
     gap: 1rem;
     border: none;
   }
