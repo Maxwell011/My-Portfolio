@@ -686,8 +686,7 @@ textarea {
   .about-me {
     padding-top: 100px;
     padding-bottom: 30px;
-    background:
-      url(./images/Group.png) bottom right,
+    background: url(./images/Group.png) bottom right,
       url(./images/bottom-left.png) bottom left;
     background-position: cover;
     background-repeat: no-repeat;
@@ -720,9 +719,8 @@ textarea {
 
   /* Contact form */
   .contact-container {
-    background:
-      url(./images/contact\ form-illustratoin-3-desktop.png) bottom
-      right,
+    background: url(./images/contact\ form-illustratoin-3-desktop.png) bottom
+        right,
       url(./images/Frame-center.png) bottom left,
       url(./images/illustration-1-contact-form-desktop.png) bottom left;
     background-repeat: no-repeat;
@@ -816,5 +814,234 @@ textarea {
 
   90% {
     transform: translateX(-8px);
+  }
+}
+
+/* Popup */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(24px);
+  box-sizing: border-box;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px 18px 200px 18px;
+  border: 1px solid #888;
+  width: 875px;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  background: #ebecf0;
+  mix-blend-mode: multiply;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1, 1);
+}
+
+.desktop-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 616px;
+  width: 872px;
+  border-radius: 8px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  height: 100%;
+}
+
+#tech {
+  display: none;
+  grid-area: tech;
+  margin-top: 20px;
+}
+
+#mobile-ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  height: 32px;
+  justify-content: flex-start;
+}
+
+#mobile-ul > li {
+  background: #ebf0ee;
+  border-radius: 4px;
+  align-items: center;
+  padding: 8px 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+}
+
+#description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #344563;
+  text-align: justify;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  color: white;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.project-view-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 8px;
+  height: 48px;
+  color: #fff;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-content {
+    position: relative;
+    height: 1083px;
+  }
+
+  .modal-header {
+    background-color: #fff;
+  }
+
+  .desktop-bg {
+    max-width: 100%;
+  }
+
+  .mobile-bg {
+    display: none;
+  }
+
+  .modal-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #tech {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 8px;
+    height: 32px;
+    justify-content: flex-start;
+    width: 500px;
+    align-self: flex-start;
+  }
+
+  #tech > li {
+    background: #ebf0ee;
+    border-radius: 4px;
+    align-items: center;
+    padding: 8px 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+  }
+
+  #mobile-ul {
+    display: none;
+  }
+
+  #title {
+    width: 589px;
+    height: 82px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .modal-footer {
+    position: absolute;
+    right: 0;
+    /* top: 32px; */
+    gap: 1rem;
+    border: none;
+  }
+
+  #description {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 44px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
