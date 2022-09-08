@@ -7,7 +7,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
@@ -27,7 +27,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
@@ -47,7 +47,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
@@ -67,7 +67,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
@@ -87,7 +87,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
@@ -107,7 +107,7 @@ const data = [
     imageDesktop: './images/Snapshoot desktop.png',
     githubIcon: './images/github.png',
     liveIcon: './images/Icon - Export.png',
-    technologiesMobile: ['Ruby on Rails', 'CSS', 'JavaScript'],
+    technologiesMobile: ['Ruby', 'CSS', 'JavaScript'],
     technologiesDesktop: [
       'CodeKit',
       'GitHub',
