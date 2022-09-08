@@ -104,6 +104,12 @@
         </div>
       </section>
 
+      <!-- The Modal -->
+      <section
+        id="myModal"
+        class="modal modal-dialog modal-dialog-centered modal-dialog-scrollable"
+      ></section>
+
       <!-- Works/projects section-->
       <section class="grid-container">
         <h2 class="heading-container heading-one" id="portfolio">
@@ -127,7 +133,13 @@
                 <li class="tile-3">Javascript</li>
                 <li class="tile-4">Html</li>
               </ul>
-              <button type="submit" class="button">See Project</button>
+              <button
+                type="submit"
+                class="button"
+                onclick="viewProjectDetails(0)"
+              >
+                See Project
+              </button>
             </div>
           </div>
 
@@ -143,7 +155,13 @@
                 <li class="tile-3">Javascript</li>
                 <li class="tile-4">Html</li>
               </ul>
-              <button type="submit" class="button">See Project</button>
+              <button
+                type="submit"
+                class="button"
+                onclick="viewProjectDetails(1)"
+              >
+                See Project
+              </button>
             </div>
           </div>
 
@@ -332,5 +350,6 @@
     </div>
     <!-- Javascript -->
     <script src="./index.js"></script>
+    <script src="./popsup.js"></script>
   </body>
 </html>
