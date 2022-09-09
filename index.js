@@ -60,4 +60,3 @@ const showError = (e) => {
   email.value = '';
 };
 form.addEventListener('submit', showError);
-
