@@ -47,3 +47,17 @@ function valid(input) {
   }
   return false;
 }
+
+// function for errorMessage
+const showError = (e) => {
+  if (!valid(email.value)) {
+    e.preventDefault();
+    errorMessage.textContent = 'Your Email must be lowercase';
+    setTimeout(() => {
+      errorMessage.textContent = '';
+    }, 3000);
+  }
+  email.value = '';
+};
+form.addEventListener('submit', showError);
+
