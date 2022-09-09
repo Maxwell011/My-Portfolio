@@ -60,3 +60,18 @@ const showError = (e) => {
   email.value = '';
 };
 form.addEventListener('submit', showError);
+
+// This is for local storage
+const userContent = {
+  fullName: '',
+  email: '',
+  textArea: '',
+};
+
+form.addEventListener('change', () => {
+  userContent.fullName = document.querySelector('#full-name').value;
+  userContent.email = document.querySelector('#email').value;
+  userContent.textArea = document.querySelector('#textarea').value;
+
+  localStorage.setItem('stored', JSON.stringify(userContent));
+});
