@@ -84,7 +84,6 @@ function viewProjectDetails(projectIndex) {
 
 (() => {
   const boxes = document.querySelector('.boxes');
-  console.log(boxes, 'boxes here');
   const tileArray = Array.from({ length: 6 }, (v, i) => i);
 
   tileArray.forEach((tile) => {
