@@ -8,7 +8,7 @@
 
 - HTML,CSS and JavaScript
 
-## Live Demo (Coming soon)
+## Live Demo
 
 [Live Demo Link](https://maxwell011.github.io/My-Portfolio/)
 
