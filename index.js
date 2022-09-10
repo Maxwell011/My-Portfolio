@@ -82,4 +82,3 @@ if (storedObject) {
   document.querySelector('#full-name').value = storedObject.lastName;
   document.querySelector('#textarea').value = storedObject.textArea;
 }
-
