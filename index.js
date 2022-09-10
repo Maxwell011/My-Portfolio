@@ -75,3 +75,11 @@ form.addEventListener('change', () => {
 
   localStorage.setItem('stored', JSON.stringify(userContent));
 });
+
+const storedObject = JSON.parse(localStorage.getItem('stored'));
+if (storedObject) {
+  document.querySelector('#email').value = storedObject.email;
+  document.querySelector('#full-name').value = storedObject.lastName;
+  document.querySelector('#textarea').value = storedObject.textArea;
+}
+
